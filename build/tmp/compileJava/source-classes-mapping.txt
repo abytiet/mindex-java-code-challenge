@@ -1,6 +1,16 @@
-com/example/restservice/Greeting.java
- com.example.restservice.Greeting
-com/example/restservice/appl/RestServiceApplication.java
- com.example.restservice.RestServiceApplication
-com/example/restservice/GreetingController.java
- com.example.restservice.GreetingController
+com/challenge/ChallengeApplication.java
+ com.mindex.challenge.ChallengeApplication
+com/challenge/service/EmployeeService.java
+ com.mindex.challenge.service.EmployeeService
+com/challenge/controller/EmployeeController.java
+ com.mindex.challenge.controller.EmployeeController
+com/challenge/config/MongoConfig.java
+ com.mindex.challenge.config.MongoConfig
+com/challenge/data/Employee.java
+ com.mindex.challenge.data.Employee
+com/challenge/service/impl/EmployeeServiceImpl.java
+ com.mindex.challenge.service.impl.EmployeeServiceImpl
+com/challenge/DataBootstrap.java
+ com.mindex.challenge.DataBootstrap
+com/challenge/dao/EmployeeRepository.java
+ com.mindex.challenge.dao.EmployeeRepository
