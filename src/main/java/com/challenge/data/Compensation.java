@@ -6,7 +6,10 @@ public class Compensation {
     private double salary;
     private String effectiveDate;
 
-    public Compensation() {
+    public Compensation(Employee employee, double salary, String effectiveDate) {
+        this.employee = employee;
+        this.salary = salary;
+        this.effectiveDate = effectiveDate;
     }
 
     public Employee getEmployee() {
