@@ -1,6 +1,7 @@
 package com.mindex.challenge;
 
 import com.mindex.challenge.dao.EmployeeRepository;
+import com.mindex.challenge.data.Compensation;
 import com.mindex.challenge.data.Employee;
 import com.mindex.challenge.data.ReportingStructure;
 import org.junit.Test;
@@ -19,6 +20,7 @@ public class DataBootstrapTest {
     @Autowired
     private EmployeeRepository employeeRepository;
 
+
     @Test
     public void testEmployee() {
         Employee employee = employeeRepository.findByEmployeeId("16a596ae-edd3-4847-99fe-c4518e82c86f");
@@ -36,5 +38,15 @@ public class DataBootstrapTest {
         assertNotNull(rs);
         assertEquals(employee, rs.getEmployee());
         assertEquals(4, rs.getNumberOfReports());
+    }
+
+    @Test
+    public void testCompensation(){
+        Employee employee = employeeRepository.findByEmployeeId("16a596ae-edd3-4847-99fe-c4518e82c86f");
+        Compensation c = new Compensation(employee, 40000.00, "January 8th, 2021");
+        assertNotNull(c);
+        assertEquals(employee, c.getEmployee());
+        assertEquals(40000.00, c.getSalary(), .01);
+        assertEquals("January 8th, 2021", c.getEffectiveDate());
     }
 }

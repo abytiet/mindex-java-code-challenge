@@ -1,5 +1,7 @@
 com/mindex/challenge/ChallengeApplicationTests.java
  com.mindex.challenge.ChallengeApplicationTests
+com/mindex/challenge/service/impl/CompensationServiceImplTest.java
+ com.mindex.challenge.service.impl.CompensationServiceImplTest
 com/mindex/challenge/DataBootstrapTest.java
  com.mindex.challenge.DataBootstrapTest
 com/mindex/challenge/service/impl/EmployeeServiceImplTest.java

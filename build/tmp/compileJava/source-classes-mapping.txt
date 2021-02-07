@@ -1,34 +1,34 @@
-com/challenge/service/impl/CompensationServiceImpl.java
- com.mindex.challenge.service.impl.CompensationServiceImpl
-com/challenge/controller/ReportingStructureController.java
- com.mindex.challenge.controller.ReportingStructureController
-com/challenge/service/impl/EmployeeServiceImpl.java
- com.mindex.challenge.service.impl.EmployeeServiceImpl
-com/challenge/dao/EmployeeRepository.java
- com.mindex.challenge.dao.EmployeeRepository
-com/challenge/service/CompensationService.java
- com.mindex.challenge.service.CompensationService
-com/challenge/ChallengeApplication.java
+com/mindex/challenge/ChallengeApplication.java
  com.mindex.challenge.ChallengeApplication
-com/challenge/service/ReportingStructureService.java
- com.mindex.challenge.service.ReportingStructureService
-com/challenge/service/EmployeeService.java
- com.mindex.challenge.service.EmployeeService
-com/challenge/data/Compensation.java
- com.mindex.challenge.data.Compensation
-com/challenge/controller/EmployeeController.java
+com/mindex/challenge/service/impl/CompensationServiceImpl.java
+ com.mindex.challenge.service.impl.CompensationServiceImpl
+com/mindex/challenge/controller/EmployeeController.java
  com.mindex.challenge.controller.EmployeeController
-com/challenge/data/ReportingStructure.java
- com.mindex.challenge.data.ReportingStructure
-com/challenge/service/impl/ReportingStructureServiceImpl.java
- com.mindex.challenge.service.impl.ReportingStructureServiceImpl
-com/challenge/config/MongoConfig.java
- com.mindex.challenge.config.MongoConfig
-com/challenge/data/Employee.java
- com.mindex.challenge.data.Employee
-com/challenge/dao/CompensationRepository.java
+com/mindex/challenge/controller/ReportingStructureController.java
+ com.mindex.challenge.controller.ReportingStructureController
+com/mindex/challenge/service/EmployeeService.java
+ com.mindex.challenge.service.EmployeeService
+com/mindex/challenge/service/impl/EmployeeServiceImpl.java
+ com.mindex.challenge.service.impl.EmployeeServiceImpl
+com/mindex/challenge/dao/CompensationRepository.java
  com.mindex.challenge.dao.CompensationRepository
-com/challenge/controller/CompensationController.java
- com.mindex.challenge.controller.CompensationController
-com/challenge/DataBootstrap.java
+com/mindex/challenge/DataBootstrap.java
  com.mindex.challenge.DataBootstrap
+com/mindex/challenge/service/impl/ReportingStructureServiceImpl.java
+ com.mindex.challenge.service.impl.ReportingStructureServiceImpl
+com/mindex/challenge/config/MongoConfig.java
+ com.mindex.challenge.config.MongoConfig
+com/mindex/challenge/data/Compensation.java
+ com.mindex.challenge.data.Compensation
+com/mindex/challenge/service/CompensationService.java
+ com.mindex.challenge.service.CompensationService
+com/mindex/challenge/dao/EmployeeRepository.java
+ com.mindex.challenge.dao.EmployeeRepository
+com/mindex/challenge/controller/CompensationController.java
+ com.mindex.challenge.controller.CompensationController
+com/mindex/challenge/data/Employee.java
+ com.mindex.challenge.data.Employee
+com/mindex/challenge/service/ReportingStructureService.java
+ com.mindex.challenge.service.ReportingStructureService
+com/mindex/challenge/data/ReportingStructure.java
+ com.mindex.challenge.data.ReportingStructure
