@@ -45,7 +45,7 @@ public class ReportingStructureServiceImpl implements ReportingStructureService 
         for(Employee reporter : employee.getDirectReports()){
             reporter = employeeRepository.findByEmployeeId(reporter.getEmployeeId());
             if(reporter == null){
-                break;
+                break; //not an employee in the repo, don't count it.
             }
             else {
                 LOG.debug("calculating reporter[{}]", reporter.getFirstName());
